@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script>
+      <link rel="stylesheet" href="styles.css">
+      <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+
+    
+    </head>
+    <body>
+        <section class="showcase">
+            <header>
+                <h2><a href="index.html" class="logo">Shalestorm</a></h2>
+                <div class="toggle"></div>
+            </header>
+                             
+	                    
+            <div style="width:78%;position:relative;padding-bottom:56.25%;"><iframe src="https://player.twitch.tv/?channel=shalestorm&parent=streams.html" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:80%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                             
+            
+            <div style="width:22%;height:0px;position:relative;padding-bottom:56.250%;"><iframe id="chat_embed" src="https://www.twitch.tv/embed/shalestorm/chat?darkpopout&parent=streams.html" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:80%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                
+            </div>                 
+            <ul class="social">
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/TheShalestorm"><img src="images/youtube.png" class="icon" alt="youtube"></a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.twitch.tv/shalestorm"><img src="images/twitch.png" class="icon" alt="twitch"></a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/2bZdSf7HmS"><img src="images/discord.png" class="icon" alt="discord"></a></li>
+            </ul>
+
+        </section>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="clips.html">Clips</a></li>
+                <li><a href="stream.html">Stream</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a class="donate" target="_blank" rel="noopener noreferrer" href="https://streamlabs.com/shalestorm/tip">Tips</a>
+        </div>
+     <script>
+            const menuToggle = document.querySelector('.toggle')
+            const showcase = document.querySelector('.showcase')
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+     </script>
+     
+   </body>
+</html>
