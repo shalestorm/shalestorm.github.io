@@ -261,7 +261,37 @@ form {
     transform: scale(1.1);
     color: rgb(22, 196, 202);
 }
+/* Stream Page */
+.StreamContainer {
+    width: 78%;
+    position: relative;
+    padding-bottom: 56.24%;
 
+}
+.strum {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+.ChatContainer {
+    width: 22%;
+    height: 0px;
+    position: relative;
+    padding-bottom: 56.250%;
+
+}
+.chat {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+
+}
 @media (max-width: 798px)
 {
   .showcase,
