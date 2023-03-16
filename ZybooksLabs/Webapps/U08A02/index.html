@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Coin Calculator</title>
+   <script src="ChangeCalc.js"></script>
+   <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <div>
+        <form>
+                        
+            <table>
+                <tr>
+                    <th>Change Calculator</h1>
+                </tr>                          
+                <tr>
+                    <td class="coin">Enter amount of change due (0-99):</td>
+                    <td><input type="text" id="change"></td>
+                    <td><input type="button" value="Calculate" name="calculate" id="calculate" onclick=TakeInput()></td>
+                </tr>
+                <tr><td><br></td></tr>        
+                <tr>
+                    <td class="coin">Quarters:</td>
+                    <td class="return"><input type="text" id="quarters" disabled></td>
+                </tr>
+                <tr>
+                    <td class="coin">Dimes:</td>
+                    <td><input type="text" id="dimes" disabled></td>
+                </tr>
+                <tr>
+                    <td class="coin">Nickles:</td>
+                    <td><input type="text" id="nickles" disabled></td>
+                </tr>
+                <tr>
+                    <td class="coin">Pennies:</td>
+                    <td><input type="text" id="pennies" disabled></td>
+                </tr>
+            </table>
+        </form>
+    </div>   
+</body>
+
+</html>

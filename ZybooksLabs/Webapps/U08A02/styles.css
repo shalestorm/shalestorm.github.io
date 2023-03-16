@@ -1,0 +1,26 @@
+th {
+    text-align: left;
+    font-size: 22pt;
+    color: blue;
+    font-family: sans-serif;
+}
+
+.coin {    
+    text-align: right;
+}
+
+td {
+    padding-right: 10px;
+    font-family: sans-serif;
+}
+
+table {
+
+    padding: 10px 30px 10px 30px;    
+    margin: auto;    
+    border: 3px solid blue;
+    outline: 1px solid black;
+    box-shadow: 5px 5px 20px black;
+    
+}
+
