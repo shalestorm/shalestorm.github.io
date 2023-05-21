@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(22, 21, 21);
+}
+h2 {
+    color: green;
+}
+h1 {
+    color: green;
+}
+a {
+    color: rgb(105, 67, 136);
+
+}
+a:visited {
+    color: lavender;
+}
+a:hover {
+    color: purple;
+}
+a:active {
+    color: blueviolet;
+}
