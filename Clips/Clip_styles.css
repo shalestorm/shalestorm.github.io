@@ -82,10 +82,9 @@ nav.navvy ul li a:hover {
     left: 0;
     width: 100%;
     height: auto;
-    padding: 13px 100px;
     z-index: 1000;
-    display: flex;
-    align-items: center;
+
+    align-items: left;
     justify-content: space-between;
     margin-bottom: 10px;
 }
@@ -95,6 +94,7 @@ nav.navvy ul li a:hover {
     cursor: pointer;
     text-decoration: inherit;
     color: inherit;
+    left: 0;
 
 
 
