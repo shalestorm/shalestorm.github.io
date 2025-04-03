@@ -76,7 +76,7 @@ nav.navvy ul li a:hover {
 }
 
 .showcase header {
-    position: fixed;
+    position: relative;
     scroll-snap-align: start;
     top: 0;
     left: 0;
@@ -145,7 +145,6 @@ h2 a:hover {
 /* toggles */
 .toggle {
     position: fixed;
-
     right: 0;
     top: 0;
     width: 60px;
@@ -309,11 +308,7 @@ h2 a:hover {
 
 @media (max-width: 798px) {
 
-    .showcase,
-    .showcase header {
-        padding: 5px 10px;
 
-    }
 
     .iframe {
         max-height: 300px;
